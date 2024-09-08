@@ -1,18 +1,18 @@
 h1{
     padding-left: 2rem;
-    padding-top: .4rem;
     font-family: "Montserrat", sans-serif;
     
 }
 html{
     font-family: "Montserrat" , sans-serif;
 }
-.nav{
+.navbar{
+    position: fixed;
     width: 100%;
     
     background-color: #476f5e;
     height: 4rem;
-    line-height: 0rem;
+    line-height: 4rem;
     
     color: white;
 

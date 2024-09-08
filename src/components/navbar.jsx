@@ -3,7 +3,7 @@ import './../components/navbar.css'
 
 function navbar() {
   return (
-    <div className='nav'>
+    <div className='navbar'>
       <h1>keeper</h1>
     </div>
   )

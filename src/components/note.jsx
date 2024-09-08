@@ -1,12 +1,17 @@
 import React from 'react'
 import '../components/style.css'
+import keep from './keep'
 
-function note() {
+
+function note(props) {
+  
   return (
     <div className='note'>
-        <h1>Title of note</h1>
+        <h1> {props.title}</h1>
         <hr />
-        <p>Here you can write your important notes</p>
+        <p>{props.text}</p>
+       
+        
       
     </div>
   )
