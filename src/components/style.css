@@ -3,11 +3,12 @@
   padding: 0;
 }
 footer {
-  position: absolute;
+  position: fixed;
   text-align: center;
   width: 100%;
-
+  bottom: 0;
   height: 2rem;
+  padding-bottom: 40px;
 }
 .note {
   width: 250px;
@@ -39,7 +40,6 @@ footer {
 
 /* Notepad css is here */
 .notepad {
-
   margin-top: 70px;
   width: 50%;
   height: auto;
@@ -49,29 +49,27 @@ footer {
   margin-left: 20%;
   /* background-color: red; */
 }
-.textForm form{
-    display: flex;
+.textForm form {
+  display: flex;
   flex-direction: column;
   padding: 10px;
-
 }
-.textForm form input{
+.textForm form input {
   outline: none;
   border: none;
   padding-left: 10px;
 }
-.textForm form textarea{
+.textForm form textarea {
   outline: none;
   border: none;
   padding-left: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  
 }
-.hide{
+.hide {
   display: none;
 }
-#btn{
+#btn {
   margin-bottom: 10px;
   outline: none;
   border: none;
@@ -79,5 +77,8 @@ footer {
   float: right;
   background-color: #ccc;
   border-radius: 5px;
-  
 }
+
+/* copyright css  */
+
+

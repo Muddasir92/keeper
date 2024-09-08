@@ -23,7 +23,8 @@ function keeper() {
     
   }
   return (
-    <div className="contain">
+    <>
+    
       <div className="nav" style={{ width: "100%" }}>
         <Navbar />
       </div>
@@ -32,8 +33,10 @@ function keeper() {
       </div>
 
       <div className="fullnote">{infoarr.map(createNote)}</div>
-      <div className="copyright">{/* <Copyright /> */}</div>
-    </div>
+      <div className="copyright_div"><Copyright /></div>
+      
+      </>
+     
   );
 }
 
