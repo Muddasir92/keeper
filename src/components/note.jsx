@@ -1,20 +1,20 @@
-import React from 'react'
-import '../components/style.css'
-import keep from './keep'
+import React from "react";
+import "../components/style.css";
+import keep from "./keep";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
-function note(props) {
-  
+function Note(props) {
   return (
-    <div className='note'>
-        <h1> {props.title}</h1>
-        <hr />
-        <p>{props.text}</p>
-       
-        
-      
+    <div className="note">
+      <h1> {props.title} </h1>
+      <hr />
+      <p>{props.text}</p>
+
+      <i className=" fa-solid fa-trash"         onClick={()=>{
+          props.onDelete(props.id)
+        }}></i>
     </div>
-  )
+  );
 }
 
-export default note
+export default Note;
